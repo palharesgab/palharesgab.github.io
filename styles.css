@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    user-select: none;
 }
 
 header {
@@ -21,16 +22,26 @@ header {
     text-decoration:none;
     color: inherit;
     margin-right: 2em;
+    filter: invert(100%) sepia(0%) saturate(795%) hue-rotate(242deg) brightness(118%) contrast(100%);
+}
+
+.navegacao-header-links:hover {
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(263deg) brightness(102%) contrast(106%);
 }
 
 #nome-header {
     display: flex;
-    margin-left: 4em;
+    margin-left: 2em;
 }
 
 .navegacao-header-categorias {
     display: flex;
     padding: 1em;
+}
+
+.navegacao-header-categorias:hover {
+    color: #000000;
+    cursor: pointer;
 }
 
 #navegacao-header {
@@ -62,6 +73,11 @@ header {
     align-items: flex-start;
 }
 
+#curriculo {
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 2em;
+}
+
 .navegacao h1 {
     margin-bottom: 1em;
 }
@@ -71,8 +87,14 @@ header {
     flex-direction: column;
     justify-content:flex-start;
     align-items: flex-start;
-    margin-bottom: 4em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
     width: 80em;
+    border-bottom: 1px solid #CCC;
+}
+
+#sobre-mim h3 {
+    margin-bottom: 1em;
 }
 
 .trabalhos {
@@ -80,7 +102,7 @@ header {
     flex-direction: column;
     justify-content:flex-start;
     align-items: flex-start;
-    margin-bottom: 4em;
+    padding-bottom: 2em;
     width: 80em;
 }
 
@@ -94,16 +116,16 @@ header {
     margin-bottom: 1em;
 }
 
-.projetos {
+.educacao {
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
     align-items: flex-start;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
     width: 80em;
 }
 
-.projetos h5 {
+.educacao h5 {
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -131,8 +153,18 @@ footer {
     padding: 12px;
 }
 
+.link-navegacao-footer:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
 .link-footer-social-media {
     text-decoration:none;
     color: inherit;
     padding: 8px;
+    filter: invert(100%) sepia(0%) saturate(795%) hue-rotate(242deg) brightness(118%) contrast(100%);
+}
+
+.link-footer-social-media:hover {
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(263deg) brightness(102%) contrast(106%);
 }

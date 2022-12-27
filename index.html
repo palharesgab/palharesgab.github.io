@@ -9,20 +9,21 @@
     <link rel="icon" href="img/icon-page.svg">
 </head>
 <body>
+    <script src="script.js"></script>
     <header>
         <div id="nome-header">
             Gabriel Palhares
         </div>
         <div id="navegacao-header">
-            <div class="navegacao-header-categorias">Sobre mim</div>
-            <div class="navegacao-header-categorias">Currículo</div>
-            <div class="navegacao-header-categorias">Projetos</div>
-            <div class="navegacao-header-categorias">Contato</div>
+            <div class="navegacao-header-categorias" onclick="sobreMim()">Sobre mim</div>
+            <div class="navegacao-header-categorias" onclick="skills()">Skills</div>
+            <div class="navegacao-header-categorias" onclick="curriculo()">Currículo</div>
+            <div class="navegacao-header-categorias" onclick="educacao()">Educação</div>
         </div>
         <div id="header-links">
-            <a href="https://twitter.com/palharesgab" class="navegacao-header-links">Twitter</a>
-            <a href="https://www.linkedin.com/in/gabriel-pizzani-palhares/" class="navegacao-header-links">Linkedin</a>
-            <a href="https://github.com/gabrielplhrs" class="navegacao-header-links">Github</a>
+            <a href="https://twitter.com/palharesgab" class="navegacao-header-links"><img src="img/twitter.svg" alt="Twitter"></a>
+            <a href="https://www.linkedin.com/in/gabriel-pizzani-palhares/" class="navegacao-header-links"><img src="img/linkedin.svg" alt="Linkedin"></a>
+            <a href="https://github.com/gabrielplhrs" class="navegacao-header-links"><img src="img/github.svg" alt="Github"></a>
         </div>
     </header>
 
@@ -33,10 +34,20 @@
     <section class="navegacao" id="principal">
         <div class="" id="sobre-mim">
             <h1>Sobre-mim</h1>
-            <h3>Estudante e Dev Jr</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderitin voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Apaixonado por tecnologia, programação e desenvolvimento, procuro me aprimorar cada vez mais nessas áreas. Tenho foco em .NET, mas sempre estou buscando
+                por novas tecnologias e metodologias para meu aprendizado, sinta-se à vontade para mandar uma mensagem.</p>
+        </div>
+
+        <div class="navegacao" id="curriculo">
+            <h1>Skills</h1>
+            <div class="trabalhos">
+                <h3>Linguagens</h3>
+                <p>C#, Javascript, Typescript</p>
+            </div>
+            <div class="trabalhos">
+                <h3>Tecnologias</h3>
+                <p>.NET Core, Angular, Nhibernate, Dapper, Oracle SQL, PLSQL, Git, Bash</p>
+            </div>
         </div>
 
         <div class="navegacao" id="curriculo">
@@ -57,31 +68,17 @@
             </div>
         </div>
 
-        <div class="navegacao" id="projetos">
-            <h1>Projetos</h1>
+        <div class="navegacao" id="educacao">
+            <h1>Educação</h1>
 
-            <div class="projetos">
-                <h3>Get-a-Pet</h3>
-                <h5>Site para adoção de pets por perto de voce</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderitin voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="educacao">
+                <h3>Bacharelado em Sistemas de Informação</h3>
+                <h5>Universidade Vila Velha - UVV</h5>
             </div>
 
-            <div class="projetos">
-                <h3>Tormenta20Sheet</h3>
-                <h5>Site para criação e administração de mesas de RPG</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderitin voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-
-            <div class="projetos">
-                <h3>GP.GG</h3>
-                <h5>Site onde players podem consultar estatísticas de suas contas Riot</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderitin voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="educacao">
+                <h3>Formação SQL com Oracle Database</h3>
+                <h5>Alura</h5>
             </div>
         </div>
     </section>
@@ -89,15 +86,15 @@
     <footer>
         <div>Gabriel Palhares</div>
         <div id="navegacao-footer">
-            <div class="link-navegacao-footer">Sobre-mim</div>
-            <div class="link-navegacao-footer">Currículo</div>
-            <div class="link-navegacao-footer">Projetos</div>
-            <div class="link-navegacao-footer">Contatos</div>
+            <div class="link-navegacao-footer" onclick="sobreMim()">Sobre-mim</div>
+            <div class="link-navegacao-footer" onclick="skills()">Skills</div>
+            <div class="link-navegacao-footer" onclick="curriculo()">Currículo</div>
+            <div class="link-navegacao-footer" onclick="educacao()">Educação</div>
         </div>
         <div>
-            <a class="link-footer-social-media" href="https://twitter.com/palharesgab">Twitter</a>
-            <a class="link-footer-social-media" href="https://www.linkedin.com/in/gabriel-pizzani-palhares/">Linkedin</a>
-            <a class="link-footer-social-media" href="https://github.com/gabrielplhrs">Github</a>
+            <a class="link-footer-social-media" href="https://twitter.com/palharesgab"><img src="img/twitter.svg" alt="Twitter"></a>
+            <a class="link-footer-social-media" href="https://www.linkedin.com/in/gabriel-pizzani-palhares/"><img src="img/linkedin.svg" alt="Linkedin"></a>
+            <a class="link-footer-social-media" href="https://github.com/gabrielplhrs"><img src="img/github.svg" alt="Github"></a>
         </div>
     </footer>
 </body>
