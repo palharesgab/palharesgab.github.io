@@ -8,11 +8,6 @@ function curriculo()
     window.scrollTo(0, 1350);
 }
 
-function projetos()
-{
-    window.scrollTo(0, 1800);
-}
-
 function educacao()
 {
     window.scrollTo(0, 1800);
