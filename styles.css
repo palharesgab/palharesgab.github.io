@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    height: 6em;
+    color: white;
+}
+
+.navegacao-header-links {
+    text-decoration:none;
+    color: inherit;
+    margin-right: 2em;
+}
+
+#nome-header {
+    display: flex;
+    margin-left: 4em;
+}
+
+.navegacao-header-categorias {
+    display: flex;
+    padding: 1em;
+}
+
+#navegacao-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#carrossel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.navegacao h1 {
+    margin-bottom: 1em;
+}
+
+#sobre-mim {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-bottom: 4em;
+    width: 80em;
+}
+
+.trabalhos {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-bottom: 4em;
+    width: 80em;
+}
+
+.img-carrossel {
+    display: flex;
+    max-height: 60em;
+}
+
+.trabalhos h5 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-bottom: 4em;
+    width: 80em;
+}
+
+.projetos h5 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    height: 16em;
+    color: white;
+}
+
+#navegacao-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.link-navegacao-footer {
+    padding: 12px;
+}
+
+.link-footer-social-media {
+    text-decoration:none;
+    color: inherit;
+    padding: 8px;
+}
