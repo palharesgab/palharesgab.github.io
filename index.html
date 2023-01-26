@@ -16,9 +16,9 @@
         </div>
         <div id="navegacao-header">
             <div class="navegacao-header-categorias" onclick="sobreMim()">Sobre mim</div>
-            <div class="navegacao-header-categorias" onclick="skills()">Skills</div>
-            <div class="navegacao-header-categorias" onclick="curriculo()">Currículo</div>
-            <div class="navegacao-header-categorias" onclick="educacao()">Educação</div>
+            <div class="navegacao-header-categorias" onclick="skills()">Projetos</div>
+            <div class="navegacao-header-categorias" onclick="curriculo()">Blog</div>
+            <div class="navegacao-header-categorias" onclick="educacao()">Social</div>
         </div>
         <div id="header-links">
             <a href="https://twitter.com/palharesgab" class="navegacao-header-links"><img src="img/twitter.svg" alt="Twitter"></a>
@@ -27,15 +27,20 @@
         </div>
     </header>
 
-    <section id="carrossel">
-        <img class="img-carrossel" src="img/code.png" alt="" width="100%">
-    </section>
-
     <section class="navegacao" id="principal">
         <div class="" id="sobre-mim">
-            <h1>Sobre-mim</h1>
-            <p>Apaixonado por tecnologia, programação e desenvolvimento, procuro me aprimorar cada vez mais nessas áreas. Tenho foco em .NET, mas sempre estou buscando
-                por novas tecnologias e metodologias para meu aprendizado, sinta-se à vontade para mandar uma mensagem.</p>
+            <div class="profile-pic-div">
+                <img class="profile-pic" src="img/gabriel.png" alt="">
+                <h1>Software Developer</h1>
+            </div>
+            <div class="sobre-mim-p">
+                <p>Olá, meu nome é Gabriel Palhares, mas todo mundo me chama de Palhares, tenho 21 anos e nasci em Vila Velha, ES.</p>
+                <p>Comecei na programação aos meus 17 anos, introduzido com lógica de programação e fazendo programas de terminal em Python. Quando completei 18 anos,
+                entrei na faculdade, e lá pude conhecer mais profundamente computação e ver diversas áreas de atuação na carreira de desenvolvimento de software. 
+                Tenho experiência com desenvolvimento fullstack, mas gosto de focar meus estudos no back-end e na cultura DevOps. Sou uma pessoa bem criativa, proativa,
+                com senso crítico e muito organizado. </p>
+                <p>Hoje tenho maior experiência com C# e sua implementação com .NET Core, mas sempre estou aberto a aprender novas tecnologias e implementações.</p>
+            </div>
         </div>
 
         <div class="navegacao" id="curriculo">
@@ -55,11 +60,11 @@
         </div>
 
         <div class="navegacao" id="curriculo">
-            <h1>Currículo</h1>
+            <h1>Experiência</h1>
             <div class="trabalhos">
                 <h3>Estágio em desenvolvimento de software</h3>
                 <h5>Autoglass - Vila Velha, ES</h5>
-                <ul>
+                <ul class="lista">
                     <li>Desenvolvimento de aplicações web com Angular e .NET solicitadas pelos Product Owners para utilização de diversas áreasda empresa.</li>
                     <li>Análise e consulta de dados da empresa com PLSQL para formar consultas e planilhas para áreas estratégicas da empresa</li>
                     <li>Manutenção de telas para novas demandas que as áreas utilizadoras necessitam.</li>
@@ -71,7 +76,7 @@
             <div class="trabalhos">
                 <h3>Desenvolvedor de Software I</h3>
                 <h5>Autoglass - Vila Velha, ES</h5>
-                <ul>
+                <ul class="lista">
                     <li>Estudos direcionados para as tecnologias usadas pela empresa,C#, PLSQL e Angular.</li>
                     <li>Implementação de novas funcionalidades utilizando Angular e .NET em aplicações web da empresa solicitadas pelas áreas utilizadoras e formalizadas pelos Product Owners.</li>
                     <li>Entrega de planilhas importadas através de consultas SQL para análise da viabilidade de demandas.</li>
@@ -80,7 +85,7 @@
         </div>
 
         <div class="navegacao" id="educacao">
-            <h1>Educação</h1>
+            <h1>Formação acadêmica</h1>
 
             <div class="educacao">
                 <h3>Bacharelado em Sistemas de Informação</h3>
