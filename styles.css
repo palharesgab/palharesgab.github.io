@@ -128,11 +128,6 @@ header {
     width: 80em;
 }
 
-.img-carrossel {
-    display: flex;
-    max-height: 60em;
-}
-
 .trabalhos h5 {
     margin-top: 1em;
     margin-bottom: 1em;
