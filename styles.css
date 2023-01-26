@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    user-select: none;
 }
 
 header {
@@ -48,7 +47,7 @@ header {
 }
 
 .navegacao-header-links:hover {
-    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(263deg) brightness(102%) contrast(106%);
+    filter: invert(50%) sepia(6%) saturate(0%) hue-rotate(231deg) brightness(115%) contrast(86%);
 }
 
 
@@ -67,7 +66,7 @@ header {
 }
 
 .navegacao-header-categorias:hover {
-    color: #000000;
+    color: #929292;
     cursor: pointer;
 }
 
@@ -177,7 +176,7 @@ footer {
 }
 
 .link-navegacao-footer:hover {
-    color: #000000;
+    color: #929292;
     cursor: pointer;
 }
 
@@ -189,26 +188,5 @@ footer {
 }
 
 .link-footer-social-media:hover {
-    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(263deg) brightness(102%) contrast(106%);
-}
-
-.projetos-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.projetos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.projeto {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    filter: invert(50%) sepia(6%) saturate(0%) hue-rotate(231deg) brightness(115%) contrast(86%);
 }
