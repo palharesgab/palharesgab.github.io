@@ -17,6 +17,10 @@ header {
     color: white;
 }
 
+.sassa {
+    margin-bottom: 8px;
+}
+
 .profile-pic-div {
     display: flex;
     flex-direction: column;
