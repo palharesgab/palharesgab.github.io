@@ -2,37 +2,127 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tosh</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="img/icon-page.svg">
+    <title>Gabriel Palhares - Resume</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; line-height: 1.6; }
+        h1, h2, h3 { color: #333; }
+        h1 { text-align: center; }
+        .contact-info { text-align: center; margin-bottom: 20px; }
+        .section { margin-bottom: 20px; }
+        .section h2 { border-bottom: 1px solid #eee; padding-bottom: 5px; }
+        .job, .project, .education-item { margin-bottom: 15px; }
+        .job-title { font-weight: bold; }
+        .job-dates, .education-dates { float: right; font-style: italic; }
+        .skills-list ul { list-style-type: none; padding: 0; }
+        .skills-list li { display: inline-block; background-color: #f4f4f4; border-radius: 5px; padding: 5px 10px; margin: 5px 5px 5px 0; }
+        .clear { clear: both; }
+    </style>
 </head>
 <body>
-    <script src="script.js"></script>
-    <header>
-        <div id="nome-header">
-            Você encontrou o Tosh?
-        </div>
-        <div id="navegacao-header">
-        </div> 
-        <div id="header-links">
-            <a href="https://www.instagram.com/eustaquio_palhares/" class="navegacao-header-links"><img src="img/instagram.png" alt="instagram" width="40px"></a>
-        </div>
-    </header>
 
-    <section class="navegacao" id="principal">
-        <div class="" id="sobre-mim">
-            <div class="profile-pic-div">
-                <img class="profile-pic" src="img/Toshi.png" alt="">
-                <h1>Por-favor, entre em contato</h1>
-            </div>
-            <div class="sobre-mim-p">
-                <p>🧑Dono: Gabriel Palhares</p>
-                <p>📞Telefone/WhatsApp: (27)99982-0973</p>
-                <p>📍 Praia da Costa, Vila Velha</p>
-            </div>
+    <h1>Gabriel Palhares</h1>
+    <div class="contact-info">
+        <p>+55 27 99982-0973 | <a href="mailto:gpalharesdev@gmail.com">gpalharesdev@gmail.com</a> | <a href="https://github.com/palharesgab" target="_blank">github.com/palharesgab</a> | Vitória, ES, Brasil</p>
+    </div>
+
+    <div class="section" id="education">
+        <h2>EDUCAÇÃO</h2>
+        <div class="education-item">
+            <span class="education-dates">2024-2025</span>
+            <strong>Mestrado em Computação e Informática</strong> 
+            <p>Universidade Federal do Espírito Santo </p>
         </div>
-    </section>
+        <div class="education-item">
+            <span class="education-dates">2020-2023</span>
+            <strong>Bacharelado em Sistemas de Informação</strong> 
+            <p>Universidade Vila Velha </p>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="section" id="experience">
+        <h2>EXPERIÊNCIA</h2>
+        <div class="job">
+            <span class="job-dates">Abril 2024-Agosto 2024</span>
+            <div class="job-title">Prosperi - Software Developer Intermediate</div>
+            <p><em>Barueri, SP, Brasil</em></p>
+            <ul>
+                <li>Participação no desenvolvimento e correção de bugs da solução da empresa utilizando C#, .NET e Angular.</li>
+                <li>Criação de scripts no banco de dados para geração de relatórios para os clientes da empresa.</li>
+                <li>Integração com o banco de dados SQL Server para armazenamento e recuperação dos dados. </li>
+                <li>Utilização do Azure DevOps para garantir um fluxo de trabalho eficiente e colaborativo (uma melhor pipeline). </li>
+                <li>Desenvolvimento apoiando os desenvolvedores iniciantes (estagiários e juniores).</li>
+            </ul>
+        </div>
+        <div class="job">
+            <span class="job-dates">Agosto 2023 Abril 2024</span>
+            <div class="job-title">Ituran - Analista de Desenvolvimento</div>
+            <p><em>Barueri, SP, Brasil</em></p>
+            <ul>
+                <li>Participação no desenvolvimento e manutenção de aplicações do financeiro utilizando C# e .NET.</li>
+                <li>Aplicação de boas práticas de programação, incluindo princípios SOLID e Clean Code (Criação e correção de PRs).</li>
+                <li>Criação e atualização da documentação técnica dos sistemas desenvolvidos. </li>
+                <li>Integração com o bancos de dados SQL Server e MongoDb para armazenamento e recuperação eficiente de dados. </li>
+                <li>Utilização de controle de versão com Git e metodologia Gitflow para garantir um fluxo de trabalho eficiente e colaborativo.</li>
+                <li>Colaboração em correção de bugs urgentes, apoiando a equipe de arquitetura de software da empresa.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <span class="job-dates">Setembro 2021 Abril 2023</span>
+            <div class="job-title">Autoglass - Fullstack Developer</div>
+            <p><em>Vila Velha, ES, Brasil</em></p>
+            <ul>
+                <li>Desenvolvimento full stack de aplicações para áreas de Financeiro, Fiscal e Contábil utilizando .NET e Angular.</li>
+                <li>Integração com sistemas ERP terceiros e sistemas internos.</li>
+                <li>Migração de aplicações de tecnologia legado (Delphi e AngularJS) para Angular e .NET Core.</li>
+                <li>Criação de scripts no banco de dados para geração de relatórios, para análises e tomadas de decisões das áreas (Financeiro, Fiscal e Contábil).</li>
+                <li>Testes unitários com XUnit.</li>
+                <li>Jornada DevOps, acompanhando a subida das aplicações do ambiente de homologação para produção.</li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="section" id="projects">
+        <h2>PROJETOS</h2>
+        <div class="project">
+            <span class="job-dates">Novembro 2023</span>
+            <h3>GET-A-PET</h3>
+            <p>Uma Aplicação web para unir usuários que queiram adotar um novo pet e abrigos que precisam de ajuda financeira. </p>
+            <ul>
+                <li>Design feito no figma, e projetado para ser inicialmente uma aplicação web. </li>
+                <li>O backend foi implementado como uma API RESTful com .NET utilizando EntityFramework como ORM. </li>
+                <li>Foi utilizado MySQL Server para o armazenamento dos dados e consulta dos mesmo.</li>
+                <li>Frontend feito em Angular, por se tratar de um framework de typescript SPA.</li>
+                <li>Testes unitários feitos utilizando xUnit.</li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="section" id="skills">
+        <h2>HABILIDADES</h2>
+        <div class="skills-list">
+            <h3>LINGUAGENS DE PROGRAMAÇÃO</h3>
+            <p><strong>+3 anos:</strong> C#, JavaScript</p>
+            <p><strong>+2 anos:</strong> Python, Java</p>
+        </div>
+        <div class="skills-list">
+            <h3>IDIOMAS</h3>
+            <p>Inglês (Avançado)</p>
+        </div>
+        <div class="skills-list">
+            <h3>TECNOLOGIAS</h3>
+            <ul>
+                <li>.NET</li><li>Nginx</li><li>Docker</li><li>.Net Core</li><li>Entity Framework</li><li>Dapper</li><li>Async</li>
+                <li>Await</li><li>Webapi</li><li>Web Services</li><li>REST/SOAP</li><li>Git</li><li>SQL (Server, Oracle, PL/SQL, MySQL, PostgreSQL)</li><li>NoSQL (MongoDB)</li><li>Razor</li><li>MVC</li>
+                <li>Testes automatizados</li><li>XUnit</li><li>AWS</li><li>HTML</li><li>CSS</li><li>SAAS</li>
+                <li>Angular</li><li>React</li><li>Arquitetura de Software</li><li>System Design</li><li>Solid</li><li>DDD</li>
+                <li>Continuous Integration</li><li>Scrum</li><li>Kanban</li><li>Lean [cite: 21, 22]</li>
+            </ul>
+        </div>
+    </div>
+
 </body>
 </html>
