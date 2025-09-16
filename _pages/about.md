@@ -33,4 +33,3 @@ Frontend
 - AngularJS
 - ReactJS
 
-For more info, please, contact-me!
