@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* M.S. in UFES, GitHub University, 2025
+* M.S. in UFES, 2025
 * B.S. in Universidade Vila Velha, 2023
 
 Work experience
@@ -31,10 +31,4 @@ Work experience
 * September 2021: Software Developer
   * Autoglass
   * Duties included: Tagging issues
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
