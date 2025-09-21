@@ -17,18 +17,14 @@ Education
 Work experience
 ======
 * August 2025: Software Engineer
-  * GitHub University
-  * Duties includes: Updates and improvements to template
+  * BTG Pactual
 
 * Feb 2024: Research Assistant
   * UFES - Universidade Federal do Espírito Santo 
-  * Duties includes: Updates and improvements to template
 
 * August 2023: Software Developer
-  * GitHub University
-  * Duties included: Merging pull requests
+  * Ituran
 
 * September 2021: Software Developer
   * Autoglass
-  * Duties included: Tagging issues
   
