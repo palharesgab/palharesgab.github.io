@@ -11,20 +11,20 @@ redirect_from:
 
 Education
 ======
-* M.S. in UFES, 2025
-* B.S. in Universidade Vila Velha, 2023
+* M.S. in UFES, 2024 - Present
+* B.S. in Universidade Vila Velha, 2020 - 2023
 
 Work experience
 ======
-* August 2025: Software Engineer
-  * BTG Pactual
+* BTG Pactual: Software Engineer
+  * August 2025 - Present
 
-* Feb 2024: Research Assistant
-  * UFES - Universidade Federal do Espírito Santo 
+* Universidade Federal do Espírito Santo: Research Assistant
+  * Feb 2024 - Present
 
-* August 2023: Software Developer
-  * Ituran
+* Ituran: Software Developer
+  * August 2023 - Feb 2024
 
-* September 2021: Software Developer
-  * Autoglass
+* Autoglass : Software Developer
+  * September 2021 - March 2023
   
